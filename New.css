@@ -382,13 +382,14 @@ header{
     margin-left: 8px;
     position: fixed;
     top: 0px;
+    font-size:50px;    
     
     }
     #mob-nav-list{
         display: block;
         z-index: +1;
         position: fixed;
-        top:40px;
+        top:55px;
         left: -100px;
         
         background-color: rgb(13, 13, 13);
@@ -417,7 +418,7 @@ header{
         border-bottom: 1px solid rgb(235, 232, 232);
         margin-top: 20px;
         align-items: center;
-        width:200px;
+        width:150px;
         text-align: center;
         position: relative;
        
