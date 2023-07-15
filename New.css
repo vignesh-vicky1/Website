@@ -378,6 +378,72 @@ header{
     padding-left: 0px;
     
 }
+    .mobnav{
+    margin-left: 8px;
+    position: fixed;
+    top: 0px;
+    
+    }
+    #mob-nav-list{
+        display: block;
+        z-index: +1;
+        position: fixed;
+        top:40px;
+        left: -100px;
+        
+        background-color: rgb(13, 13, 13);
+        border-right: 1px solid rgb(120, 116, 116);
+        
+        width:50%;
+        transition:0.5s ease-in-out;
+        height: 200vh;
+       
+        
+    }
+    .mob-nav1{
+        
+        
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        
+        
+        
+        
+    }
+    .mob-nav2{
+        justify-content: center;
+        border-bottom: 1px solid rgb(235, 232, 232);
+        margin-top: 20px;
+        align-items: center;
+        width:200px;
+        text-align: center;
+        position: relative;
+       
+        
+        padding: 10px;
+        height: 50px;
+       
+        
+        
+        
+    }
+    
+    .mob-nav2 a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    .mob-nav2 a:hover{
+        color: white;
+    }
+  
+    .mob-nav2:hover{
+        background-color: rgb(105, 104, 104);
+        color: black;
+    }
+
 
 
 
@@ -385,7 +451,7 @@ header{
 
 /* MObile nav style*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 820px) {
     .mob-nav{
         display: none;
     }
