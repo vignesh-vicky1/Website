@@ -37,10 +37,23 @@
         </nav>
       </div>  
 <!--nav section for window over-->
+  <!--mobile NAV-->
+  <div class="mob-nav">
+    <i class="bi bi-list mobnav" onclick="work()"></i>
   
+  <div id="mob-nav-list"  style="left: -50%;">
+   <ul class="mob-nav1">
+    <li class="mob-nav2"><a href="#" onclick="work1()">Home</a></li>
+    <li class="mob-nav2"><a href="#Abt" onclick="work1()">About</a></li>
+    <li class="mob-nav2"><a href="#Skills" onclick="work1()">Skills</a></li>
+    <li class="mob-nav2"><a href="#project" onclick="work1()">Projects</a></li>
+    <li class="mob-nav2"><a href="#contact" onclick="work1()">Contact</a></li>
+   </ul>
+  </div>
+</div>
 
 <!--Home page start's-->
-<div class="main-div">
+<div class="main-div" onclick="work1()">
   
   <div class="header-div">
    <header class="head">
@@ -63,7 +76,6 @@
         <p class="abt-p1">Alpha art's and science college</p>
         <i class="bi bi-arrow-down-square-fill"></i>
       </div>
-      
       <div class="abt-nav2">
         <h1 class="abt-h1">Experience</h1>
         <p class="abt-p1">I have totally 2 year's of experience in IT industry worked as a full time Test engineer,Past one year I am trained as a front end engineer and done some projects Now looking for any full time front end developer or designer role!</p>
@@ -219,7 +231,7 @@
             <button class="bt01" type="submit"><i class="bi bi-send-fill btn-ic"></i>SEND MESSAGE</button>
           </p>
         </form>
-          <div class="resume">
+        <div class="resume">
         
        <button class="bt01"><a href="Professional resume.pdf" download=""><i class="bi bi-box-arrow-down btn-ic"></i></a></i>
        Resume
