@@ -6,23 +6,23 @@ function call(){
 }
 
 
-class data{
-    constructor(value){
-        this._name=value
+var data =document.getElementById("mob");
+let data1 =document.getElementById("mob-nav-list")
+
+//mobile NAV
+function work(){
+    if(data1.style.left=="-50%"){
+data1.style.left="0px"
+    }else{
+        data1.style.left="-50%";
+
     }
-
-get name1(){
-    return this._name.toUpperCase()
 }
-set name1(value){
-this._name=value
+// mobile nav
+function work1(){
+    if(data1.style.left=="0px"){
+        data1.style.left="-50%"
+    }
+    
+    
 }
-
-
-
-
-}
-let obj=new data();
-obj.name1="magesh"
-console.log(obj.name1)
-console.log(obj._name)
