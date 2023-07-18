@@ -1,4 +1,4 @@
-# hi all This is a static and basic Website 
-#HTml and CSS only used 
-#js only for alert 
-#In future It change into a Dynamic One
+# hi all this is personal web page with form action 
+#HTml and CSS for construction and design
+#js for Mobile navigator and form action's
+#In future we add project data into that
