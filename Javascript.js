@@ -26,3 +26,21 @@ function work1(){
     
     
 }
+// From to mail
+function sendfile(){
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "kingbala62@gmail.com",
+        Password : "E4F768F366055114311CF85DD69D21F6C026",
+        To : 'vigneshvickybsc1999@gmail.com',
+        From : "kingbala62@gmail.com",
+        Subject :document.getElementById("subject").value,
+        Body : "Name: "+ document.getElementById('name').value
+        + "<br> email: "+ document.getElementById('email').value
+        + "<br> Number: "+ document.getElementById('num').value
+        + "<br> Message: "+ document.getElementById("message").value
+    
+    }).then(
+      message => alert(message)
+    );
+    }
