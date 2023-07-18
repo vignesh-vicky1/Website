@@ -33,7 +33,7 @@ function sendfile(){
         Username : "kingbala62@gmail.com",
         Password : "E4F768F366055114311CF85DD69D21F6C026",
         To : 'vigneshvickybsc1999@gmail.com',
-        From : document.getElementById("email").value,
+        From : "kingbala62@gmail.com",
         Subject :document.getElementById("subject").value,
         Body : "Name: "+ document.getElementById('name').value
         + "<br> email: "+ document.getElementById('email').value
