@@ -45,7 +45,7 @@
     margin-left: 170px;
     margin-right: 30px;
     height: max-content;
-
+   
 }
 header{
     position: relative;
@@ -103,6 +103,21 @@ header{
 .Freelance{
     margin-top: 30px;
     width: 500px;
+    margin-left: 20%;
+ border-radius: 20px;
+    background-color: rgba(49, 48, 47, 0.833);
+}
+.Freelance h1{
+    text-align: center;
+    padding-top: 10px;
+
+    
+}
+.Freelance p{
+    
+    color: rgb(184, 177, 168);
+    padding: 10px;
+    
 }
 span{
     color: rgba(215, 215, 19, 0.779);
@@ -287,6 +302,7 @@ color: rgba(100, 101, 101, 0.509);
 }
 /*footer Over*/
 
+
 @media only screen and (max-width: 820px) {
     .main-div {margin-left: 10px;
     
@@ -326,6 +342,19 @@ header{
 }
 .Freelance{
     width: fit-content;
+    background-color: rgba(49, 48, 47, 0.833);
+    border-radius: 20px;
+    margin-left: 0px;
+}
+.Freelance h1{
+    text-align: center;
+    padding: 5px;
+    
+}
+.Freelance p{
+    color: rgb(184, 177, 168);
+    padding: 10px;
+    
 }
 .abt-nav{
     display:contents;
@@ -352,16 +381,26 @@ header{
     width:100%;
 }
 .skill-img{
-    
     width: fit-content;
-    display: contents;
-}
-.skill-img-div2{
-    display:contents;
+    display:block;
+    padding: 10px;
 
 }
+
+.skill-img-div2{
+    display:flex;
+    width: fit-content;
+
+}
+
 .img01{
-    margin-left:120px;
+    margin-left:20px;
+}
+.img02{
+    margin-left: 20px;
+}
+.img03{
+    margin-left: 20px;
 }
 .input1{
     width: 100%;
@@ -378,11 +417,11 @@ header{
     padding-left: 0px;
     
 }
-    .mobnav{
+.mobnav{
     margin-left: 8px;
     position: fixed;
     top: 0px;
-    font-size:50px;    
+    font-size:50px;
     
     }
     #mob-nav-list{
@@ -446,8 +485,6 @@ header{
     }
 
 
-
-
 }
 
 /* MObile nav style*/
@@ -457,3 +494,4 @@ header{
         display: none;
     }
 }
+
