@@ -1,0 +1,134 @@
+.main-div{
+   width: 100%;
+   min-height: 100vh;
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg,rgb(20, 13, 112),rgb(74, 10, 77));
+    
+}
+.h1-div{
+    
+    background-color: white;
+    width: 500px;
+    min-height: 200px;
+    border-radius: 20px;
+    margin-left: 30%;
+    
+}
+.h1{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.input-div{
+    background-color: rgba(180, 176, 176, 0.664);
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+.main-input{
+margin-left: 5px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    background: transparent;
+    
+
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    margin-left: 37px;
+    background-color: rgba(165, 24, 24, 0.993);
+border-radius: 20px;
+border: none;
+outline: none;
+
+
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+    list-style: none; 
+    padding:12px 8px 12px 50px  ;
+    user-select: none;
+    position: relative;
+    width: 300px;
+    justify-content: center;
+    margin-left: -25px;
+    
+    
+}
+
+ul li::before{
+    width: 20px;
+    height: 20px;
+    content: '';
+    background-image: url(unchecked.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+
+}
+/* class name  while click on the list to change*/
+ul .checked{
+    text-decoration: line-through;
+}
+ul .checked::before{
+    background-image: url(checked.jpeg);
+}
+
+
+li span{
+    color: brown;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;    
+}  
+li span:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgba(175, 168, 168, 0.842);
+    border-radius: 50%;
+}
+
+
+/* mobile */
+@media only screen and (max-width : 700px) {
+.main-div{
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    width: 100%;
+    min-height: 600px;
+
+}
+.h1-div{
+    justify-content: center;
+    align-items: center;
+    margin-left: 9%;
+    margin-top: 30%;
+    width: 80%;
+}
+
+li span{
+    position: absolute;
+    right: 50px;
+}
+
+li{
+    margin-left: -20px;
+}
+
+
+}
