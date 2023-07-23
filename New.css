@@ -1,4 +1,11 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
 
+}
+body{
+    
+    background: linear-gradient(135deg, rgb(0, 0, 0),rgb(20, 15, 20));
+}
 .row-item{
     color: rgb(244, 239, 239);
 }
@@ -34,7 +41,8 @@
     font-size:30px;
     }
 .pic{
-    width: 130px;
+    margin-left: 0px;
+    width:130px;
     opacity:0.5 ;
     border-radius: 50%;
 }
@@ -57,14 +65,17 @@ header{
     
 }
 .h1{
-    color: rgba(255, 255, 255, 0.548);
+    color: rgb(245, 245, 245);
+    
     font-weight: bolder;
     font-family: sans-serif;
     font-style: oblique;
+    
 }
 .h1-p{
+    
     text-align: center;
-    color: rgba(255, 255, 255, 0.548);
+    color: rgba(230, 221, 221, 0.966);
 }
 .img-h{
     border-radius: 50%;
@@ -72,14 +83,16 @@ header{
 }
 .header-div{
  
- 
-    background-color: rgba(130, 136, 136, 0.493);
+background-image: url(header.jpeg);
+ background-size: cover;
+ height: 100vh;
+    
 }
 
 /*ABOUT SESSION*/
 
 .abt-main{
-   margin-top: 25rem;
+   margin-top: 5rem;
     
 }
 .abt-h1{
@@ -179,6 +192,73 @@ background-color: rgba(221, 24, 24, 0.639);
     margin-top: 40px;
     
 }
+.project-div1{
+color: white;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+.todo{
+    
+    display: flex; 
+margin-top: 50px;  
+}
+.todo img{
+    margin-left: 20px;
+    opacity: 0.8;
+    
+}
+.todoimg1{
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+}
+.todoimg2{
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+}.todoimg3{
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+}
+.todo img:hover{
+    opacity: 1;
+    transition: 0.5s;
+    width: 400px;
+    height: 300px;
+}
+
+.todo-btn{
+    margin-top: 20px;
+
+}
+.todo-btn1{
+    border: none;
+    
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+}
+.todo-btn1:hover{
+    background-color:grey;
+    color: white;
+}
+.todo-btn1 a{
+    text-decoration: none;
+    color:black;
+}
+.todo-btn1 a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+
+
 .price{
     margin-top: 200px;
 }
@@ -422,6 +502,7 @@ header{
     position: fixed;
     top: 0px;
     font-size:50px;
+    z-index: +1;
     
     }
     #mob-nav-list{
@@ -484,6 +565,23 @@ header{
         color: black;
     }
 
+    .todo{
+        display: block;
+
+    }
+    .todo img{
+        margin-top: 10px;
+        width: 90%;
+        height: 300px;
+
+    
+
+    }
+    .todo img:hover{
+        transition:none;
+        width: 90%;
+        height: 300px;
+    }
 
 }
 
@@ -494,4 +592,5 @@ header{
         display: none;
     }
 }
+
 
