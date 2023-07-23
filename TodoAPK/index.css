@@ -129,6 +129,15 @@ li span{
 li{
     margin-left: -20px;
 }
+   .input-div{
+    width: fit-content;
+    margin-left: 5px;
+}
+.btn{
+    
+    width: fit-content;
+    padding: 5px;
+}
 
 
 }
