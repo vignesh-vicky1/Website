@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    
+    background-color: rgb(37, 35, 35);
+}
+.main-card{
+    background-image: linear-gradient(135deg, rgb(13, 175, 162), rgb(22, 63, 109));
+max-width: 300px;
+min-height: 100px;
+border-radius: 20px;
+margin-left: 40%;
+margin-top: 10%;
+}
+.srch-div{
+padding: 20px;
+
+}
+.input{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding: 8px ;
+    width: 205px;
+    outline: none;
+    
+    
+
+
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: white;
+    border: none;
+}
+.btn i{
+    color: red;
+    font-weight: 400;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: black;
+    transition:.5s ease all;
+    color: white;
+    
+}
+i:hover{
+    color: white;
+}
+.city-div{
+    margin-left: 0px;
+}
+.img-div{
+    width: auto;
+    margin-left: 45px;
+}
+.img-div img{
+    width: 170px;
+    margin-left: 14%;
+    
+}
+.city-name-div{
+    margin-left: 0px;
+
+}
+.city-name-div h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    text-align: center;
+}
+.city-name-div h3{
+    color: white;
+    
+  
+    font-weight: 200;
+    text-align: center;
+}
+.footer-div{
+    display:flex;
+    margin-left: 25px;
+}
+.main-humidity{
+    display: flex;
+    color: white;
+}
+.humi-ico i{
+    font-size: xx-large;
+
+}
+.humi-content{
+    margin-left: 11px;
+}
+.p1{
+    margin-top: 5px;
+    font-size: 20px;
+}.p2{
+    margin-top: -20px;
+    font-size: small;
+}
+.main-speed{
+    display: flex;
+    color: white;
+    margin-left: 25px;
+}
+.weather{
+    display:none ;
+}
+.error{
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    
+    .main-card{
+        margin-left:50px;
+margin-top: 40%;
+    }
+  }
