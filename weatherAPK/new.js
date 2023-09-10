@@ -10,6 +10,7 @@ btn.addEventListener('click',apicall);
 function apicall(){
 //API REQUEST//
   let input =document.querySelector('.input').value
+    let inputBox=document.querySelector('.input')
   
  let http =new XMLHttpRequest()
  http.open("GET", Apiurl +`&q=${input}`+`&appid=${Apikey}`)
@@ -52,6 +53,6 @@ city.innerHTML=input
 
  }
 
-
+inputBox.value='';
 
 }
