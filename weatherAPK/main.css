@@ -1,7 +1,11 @@
 body{
     width: 100%;
     
-    background-color: rgb(37, 35, 35);
+    background-image: url(bg23.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    background-position: top;
+    
 }
 .main-card{
     background-image: linear-gradient(135deg, rgb(13, 175, 162), rgb(22, 63, 109));
@@ -117,8 +121,24 @@ i:hover{
 }
 @media only screen and (max-width: 500px) {
     
-    .main-card{
-        margin-left:50px;
-margin-top: 40%;
+    body{
+    
+        background-image: url(bg23.jpg);
+        
+        opacity: 0.7;
+        
+        background-size: auto;
+        background-position: top;
+        
     }
+    .main-card{
+        margin-left:20%;
+margin-top: 40%;
+
+
+    }
+
+
+
+
   }
