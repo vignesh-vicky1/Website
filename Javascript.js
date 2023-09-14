@@ -1,6 +1,5 @@
 
 
-
 function call(){
     alert("THANKS FOR APPROACHING US :)")
 }
@@ -44,3 +43,58 @@ function sendfile(){
       message => alert(message)
     );
     }
+
+
+
+
+    // scroll function//
+
+const observer =new IntersectionObserver((obs)=>{
+    obs.forEach((scroLLPart)=>{
+        if(scroLLPart.isIntersecting){
+            scroLLPart.target.classList.add('scroll')
+             }
+        else{
+            scroLLPart.target.classList.remove('scroll')
+        }
+    })
+})
+
+    let scrollBtn=document.querySelectorAll('.anim')
+ scrollBtn.forEach((main)=>{
+    observer.observe(main)
+ })
+
+ //scroll for skill bar//
+
+ const observer1=new IntersectionObserver((obs1)=>{
+    obs1.forEach((obs2)=>{
+        if(obs2.isIntersecting){
+            obs2.target.classList.add('add-anim')
+        }else{
+            obs2.target.classList.remove('add-anim')
+        }
+    })
+ })
+
+ let skillbar =document.querySelectorAll('.s-anim')
+ skillbar.forEach((el)=>{
+    observer1.observe(el)
+ })
+
+
+ // scroll observer for introduction images//
+ let observer3 =new IntersectionObserver((introImg)=>{
+    introImg.forEach((intro)=>{
+        if(intro.isIntersecting){
+            intro.target.classList.add('w-img-show')
+
+        }else{
+            intro.target.classList.remove('w-img-show')
+        }
+    })
+ })
+ const Images =document.querySelectorAll('.w-img')
+ Images.forEach((ImgLoop)=>{
+    observer3.observe(ImgLoop)
+ })
