@@ -465,7 +465,8 @@ color: rgba(100, 101, 101, 0.509);
     
 }
 @media only screen and (max-width: 820px) {
-    .main-div {margin-left: 10px;
+    .main-div {margin-left: 0px;
+               padding: 10px;
     
         
         
@@ -722,16 +723,17 @@ header{
     }
     .mob-nav-p{
         
-        margin-left: 0px;
-        margin-top: 50px;
-        color: white;
-        font-size: 10px;
+         margin-left: 10px;
+        margin-top: 70%;
+        color: gold;
+        font-size: 15px;
         size: 10px;
     }
     .mob-nav-p i{
-        margin-left: -60px;
+       margin-left: -60px;
         align-items: start;
-        font-size: 12px;
+        font-size: 15px;
+        color: gold;
     }
 
     .m-img{
