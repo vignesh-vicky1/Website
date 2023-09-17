@@ -1,3 +1,4 @@
+ 
 
 
 function call(){
@@ -7,8 +8,31 @@ function call(){
 
 var data =document.getElementById("mob");
 let data1 =document.getElementById("mob-nav-list")
+//desktop nav and mobile nav visible and disable while scrolling-----------------------------//
+let desktopNav=document.querySelector('.nav-div')
+let mobileNav=document.querySelector('.mobnav')
+let previousCursor =window.scrollY
+window.addEventListener('scroll',function(){
+    let curretCursor=this.window.scrollY
+    if(curretCursor>previousCursor){
+        desktopNav.style.transform='translateY(-100%)'
+        mobileNav.style.transform='translateY(-100%)'
+   
+    }
+    else{
+        desktopNav.style.transform='translateY(0%)'
+        mobileNav.style.transform='translateY(0%)'
+    }
+    previousCursor=curretCursor
+})
 
-//mobile NAV
+
+
+
+
+
+
+//mobile NAV open and close -----------------------------------------------------------//
 function work(){
     if(data1.style.left=="-50%"){
 data1.style.left="0px"
@@ -17,7 +41,7 @@ data1.style.left="0px"
 
     }
 }
-// mobile nav
+// mobile nav close ---------------------------------------------------------------------//
 function work1(){
     if(data1.style.left=="0px"){
         data1.style.left="-50%"
@@ -25,7 +49,7 @@ function work1(){
     
     
 }
-// From to mail
+// From to mail-------------------------------------------------------------------------//
 function sendfile(){
     Email.send({
         Host : "smtp.elasticemail.com",
@@ -47,7 +71,7 @@ function sendfile(){
 
 
 
-    // scroll function//
+    // scroll function for header contents--------------------------------------------------=//
 
 const observer =new IntersectionObserver((obs)=>{
     obs.forEach((scroLLPart)=>{
@@ -65,14 +89,12 @@ const observer =new IntersectionObserver((obs)=>{
     observer.observe(main)
  })
 
- //scroll for skill bar//
+ //scroll for skill bar-------------------------------------------------------------------------//
 
  const observer1=new IntersectionObserver((obs1)=>{
     obs1.forEach((obs2)=>{
         if(obs2.isIntersecting){
             obs2.target.classList.add('add-anim')
-        }else{
-            obs2.target.classList.remove('add-anim')
         }
     })
  })
@@ -83,7 +105,7 @@ const observer =new IntersectionObserver((obs)=>{
  })
 
 
- // scroll observer for introduction images//
+ // scroll observer for introduction images--------------------------------------------------------//
  let observer3 =new IntersectionObserver((introImg)=>{
     introImg.forEach((intro)=>{
         if(intro.isIntersecting){
