@@ -13,13 +13,13 @@ window.addEventListener("scroll", function () {
   let curretCursor = this.window.scrollY;
   if (curretCursor > previousCursor) {
     desktopNav.style.transform = "translateY(-100%)";
-
+    Whatsapp.style.transform = "translateY(0%)";
     mobileNav.style.transform = "translateY(-100%)";
     Whatsapp.classList.add("WDiv");
   } else {
     desktopNav.style.transform = "translateY(0%)";
     Whatsapp.classList.remove("WDiv");
-    Whatsapp.style.transform = "translateX(-100%)";
+    Whatsapp.style.transform = "translateY(+100%)";
     mobileNav.style.transform = "translateY(0%)";
   }
   previousCursor = curretCursor;

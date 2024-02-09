@@ -13,7 +13,6 @@
   display: none;
 }
 .WDiv {
-  transform: translateX(0);
   transition: 1s ease-in-out;
   position: fixed;
   right: 0;
