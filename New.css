@@ -155,6 +155,10 @@ header {
 .abt-h1 {
   color: rgba(255, 255, 255, 0.619);
   font-family: sans-serif;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: linear-gradient(black, rgb(8, 156, 131));
 }
 .abt-p1 {
   color: rgba(128, 128, 128, 0.662);
@@ -277,6 +281,7 @@ span {
   width: 800px;
   border: 1px solid gray;
   margin-left: 150px;
+  margin-top: 80px;
   padding: 10px;
   border-radius: 10px;
   border-top-left-radius: 80px;
@@ -456,6 +461,18 @@ span {
 }
 .f-ic:hover {
   color: rgba(100, 101, 101, 0.509);
+}
+.bi-instagram:hover {
+  color: rgb(166, 25, 159);
+}
+.bi-facebook:hover {
+  color: rgb(0, 0, 255);
+}
+.bi-github:hover {
+  color: white;
+}
+.bi-linkedin:hover {
+  color: rgb(43, 0, 255);
 }
 /*footer Over*/
 
