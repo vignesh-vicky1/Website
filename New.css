@@ -79,6 +79,7 @@
 .nav-div {
   transition: 0.5s ease-out;
   position: fixed;
+  z-index: +1;
   top: 0px;
   left: 0px;
 }
@@ -200,9 +201,10 @@ span {
 }
 .skill-per1 {
   height: 20px;
-  width: 900px;
+  width: 90%;
   opacity: 0.3;
   transform: translateX(-100%);
+  animation: anime 10s linear infinite;
 }
 
 .per2 {
@@ -356,13 +358,13 @@ span {
   height: 350px;
   border-radius: 20px;
   background: var(--bg-color);
-  z-index: 0;
 
   box-shadow: 0px 0px 10px 2px #5a5a5a;
   display: flex;
   flex-direction: column;
   transition: 0.4s;
-  position: relative;
+  position: absolute;
+  z-index: 0;
 }
 
 .card:hover {

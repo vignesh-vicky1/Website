@@ -8,6 +8,7 @@ let data1 = document.getElementById("mob-nav-list");
 let desktopNav = document.querySelector(".nav-div");
 let mobileNav = document.querySelector(".mobnav");
 let Whatsapp = document.querySelector(".Wdiv");
+
 let previousCursor = window.scrollY;
 window.addEventListener("scroll", function () {
   let curretCursor = this.window.scrollY;
