@@ -281,18 +281,19 @@ span {
   font-family: "Courier New", Courier, monospace;
 }
 .p-div {
-  width: 800px;
+  width: 100%;
   justify-content: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .a-img:hover {
   opacity: 0.5;
 }
 .project-box {
   box-shadow: 4px 4px 2px 2px rgb(44, 71, 47);
-  width: fit-content;
+  width: auto;
   border: 15px solid rgb(255, 251, 251);
-  margin-left: 150px;
+
   margin-top: 80px;
   padding: 10px;
   border-radius: 10px;
@@ -627,23 +628,19 @@ span {
   }
   .project-box {
     height: 400px;
-    width: 100%;
+    width: auto;
     margin-left: 0px;
   }
   .p-div {
-    height: 400px;
-    width: auto;
-    margin-left: -200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .project-img {
-    margin-left: 50px;
   }
   .img3 {
-    margin-left: -9rem;
-    margin-top: 200px;
+    margin-top: -30px;
   }
   .img4 {
-    margin-left: -20rem;
   }
 
   .abt-main {
