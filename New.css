@@ -273,13 +273,7 @@ span {
 .projects-main-div {
   margin-top: 40px;
 }
-.project-div1 {
-  color: white;
-  justify-content: center;
-  text-align: center;
-  margin-top: 30px;
-  font-family: "Courier New", Courier, monospace;
-}
+
 .p-div {
   width: 100%;
   justify-content: center;
@@ -326,48 +320,16 @@ span {
   margin-top: 20px;
   margin-left: 10px;
 }
-.todo {
-  display: flex;
-  margin-top: 50px;
-}
+
 .todo img {
   margin-left: 20px;
   opacity: 0.8;
 }
-.todoimg1 {
-  border-radius: 30px;
-  width: 350px;
-  height: 250px;
-}
-.todoimg2 {
-  border-radius: 30px;
-  width: 350px;
-  height: 250px;
-}
-.todoimg3 {
-  border-radius: 30px;
-  width: 350px;
-  height: 250px;
-}
+
 .todo img:hover {
   opacity: 1;
 }
 
-.todo-btn {
-  margin-top: 20px;
-}
-.todo-btn1 {
-  border: none;
-
-  width: fit-content;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: large;
-}
-.todo-btn1:hover {
-  background-color: grey;
-  color: white;
-}
 .todo-btn1 a {
   text-decoration: none;
   color: black;
@@ -610,13 +572,6 @@ span {
     font-size: 40px;
     margin-top: 40px;
   }
-  .h1-p {
-    margin-left: 150px;
-  }
-  .img-h {
-    border-radius: 50%;
-    width: 100%;
-  }
 
   .w-img {
     display: block;
@@ -660,13 +615,7 @@ span {
     text-align: center;
     padding-top: 20px;
   }
-  .Freelance {
-    width: fit-content;
-    background-color: rgba(49, 48, 47, 0.833);
-    border-radius: 20px;
-    margin-left: 0px;
-    background-color: rgba(220, 220, 220, 0.833);
-  }
+
   .Freelance h1 {
     text-align: center;
     padding: 5px;
@@ -723,17 +672,7 @@ span {
   .input1 {
     width: 100%;
   }
-  .pt1 {
-    display: block;
-    width: 100%;
-    margin-left: -30px;
-    padding-left: 0px;
-  }
-  .price-1 {
-    margin-left: 0px;
 
-    padding-left: 0px;
-  }
   .mob-nav {
     display: block;
   }
