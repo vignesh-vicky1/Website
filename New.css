@@ -165,10 +165,14 @@ header {
   color: rgba(197, 28, 28, 0.662);
   font-family: sans-serif;
   font-weight: 600;
+  line-height: 2;
 }
 .abt-nav {
+  width: auto;
   margin-top: 50px;
   display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 .abt-nav2 {
   margin-left: 50px;
