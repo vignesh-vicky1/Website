@@ -196,19 +196,33 @@ span {
 }
 .skil-per {
   height: 20px;
-  width: 1000px;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.463);
 }
 .skill-per1 {
   height: 20px;
   width: 90%;
   opacity: 0.3;
-  transform: translateX(-100%);
-  animation: anime 10s linear infinite;
+
+  animation: anime 5s linear;
+}
+@keyframes anime {
+  0% {
+    width: 0%;
+    background-color: red;
+  }
+  50% {
+    width: 50%;
+    background-color: orange;
+  }
+  90% {
+    width: 90%;
+    background-color: green;
+  }
 }
 
 .per2 {
-  width: 850px;
+  width: 85%;
 }
 .per3 {
   width: 75%;
@@ -217,6 +231,7 @@ span {
   margin-top: 10px;
 }
 .skill-img {
+  width: 100%;
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
@@ -275,8 +290,8 @@ span {
 }
 .project-box {
   box-shadow: 4px 4px 2px 2px rgb(44, 71, 47);
-  width: 800px;
-  border: 1px solid gray;
+  width: fit-content;
+  border: 15px solid rgb(255, 251, 251);
   margin-left: 150px;
   margin-top: 80px;
   padding: 10px;
@@ -284,6 +299,24 @@ span {
   border-top-left-radius: 80px;
   border-bottom-right-radius: 80px;
   border-bottom: 1px solid gold;
+  animation: anime1 3s linear infinite;
+}
+@keyframes anime1 {
+  0% {
+    border: 5px solid rgb(255, 255, 255);
+  }
+  25% {
+    border: 5px solid red;
+  }
+  50% {
+    border: 5px solid rgb(63, 155, 24);
+  }
+  75% {
+    border: 5px solid rgb(48, 42, 172);
+  }
+  100% {
+    border: 5px solid rgb(164, 36, 168);
+  }
 }
 .project-img {
   padding: 20px;
@@ -771,8 +804,6 @@ span {
   }
 
   .s-anim {
-    transform: translateX(-100%);
-
     opacity: 0;
   }
   .add-anim {
