@@ -479,12 +479,32 @@ span {
 /* contact*/
 .con-main-div {
   margin-top: 100px;
+  width: auto;
 }
 .h2 {
   width: fit-content;
   height: 50px;
   border-bottom: 1px solid white;
 }
+.con-div1 {
+  width: fit-content;
+  animation: anime2 2s linear infinite;
+}
+
+@keyframes anime2 {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
 .con-div2 {
   margin-top: 20px;
 }
