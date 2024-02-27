@@ -680,6 +680,7 @@ span {
 
   .mob-nav {
     display: block;
+   
   }
   .mobnav {
     margin-left: 8px;
@@ -696,14 +697,14 @@ span {
     z-index: +1;
     position: fixed;
     top: 55px;
-    left: -100px;
-
+    
+    
     background-color: rgb(13, 13, 13);
-    border-right: 1px solid rgb(120, 116, 116);
+    border-right: 1px solid rgb(241, 240, 240);
    border-radius: 10px;
-    width: 50%;
+    width: 70%;
     transition: 0.5s ease-in-out;
-    height: 200vh;
+    height: 100vh;
   }
   .mob-nav1 {
     list-style: none;
@@ -712,14 +713,17 @@ span {
     width: 100%;
   }
   .mob-nav2 {
+    position: relative;
+    right: 15px;
     justify-content: center;
     border-bottom: 1px solid rgb(235, 232, 232);
     margin-top: 20px;
     align-items: center;
     width: 150px;
+    
     text-align: center;
     position: relative;
-
+  width:100%;
     padding: 10px;
     height: 50px;
   }
@@ -740,20 +744,23 @@ span {
     color: black;
   }
   .mob-nav-p {
-    margin-left: 10px;
+    
+    margin-right: 10px;
+    border-radius: 15px;
     margin-top: 80%;
-
+   background-color: white;
     font-size: 15px;
     size: 10px;
+    width: auto
   }
   .mob-nav-p i {
-    margin-left: -60px;
-    align-items: start;
+   
+    align-items: center;
     font-size: 15px;
   }
 
   .m-img {
-    margin-left: -20px;
+    
   }
 
   /* mobile scroll effect*/

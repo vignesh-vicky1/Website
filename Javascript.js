@@ -28,18 +28,18 @@ window.addEventListener("scroll", function () {
 
 //mobile NAV open and close -----------------------------------------------------------//
 function work() {
-  if (data1.style.left == "-50%") {
+  if (data1.style.left == "-70%") {
     data1.style.left = "10px";
-    MainDiv.style.opacity=0.2
+    MainDiv.style.opacity=0.2;
   } else {
-    data1.style.left = "-50%";
+    data1.style.left = "-70%";
     MainDiv.style.opacity= 1;
   }
 }
 // mobile nav close ---------------------------------------------------------------------//
 function work1() {
   if (data1.style.left == "10px") {
-    data1.style.left = "-50%";
+    data1.style.left = "-70%";
     MainDiv.style.opacity= 1;
   }
 }
