@@ -29,7 +29,7 @@ window.addEventListener("scroll", function () {
 //mobile NAV open and close -----------------------------------------------------------//
 function work() {
   if (data1.style.left == "-50%") {
-    data1.style.left = "0px";
+    data1.style.left = "10px";
     MainDiv.style.opacity=0.2
   } else {
     data1.style.left = "-50%";
@@ -38,7 +38,7 @@ function work() {
 }
 // mobile nav close ---------------------------------------------------------------------//
 function work1() {
-  if (data1.style.left == "0px") {
+  if (data1.style.left == "10px") {
     data1.style.left = "-50%";
     MainDiv.style.opacity= 1;
   }
