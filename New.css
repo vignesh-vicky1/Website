@@ -688,6 +688,7 @@ span {
     z-index: +1;
     transform: translateY(0%);
     transition: 0.5s ease-in-out;
+    color:whitesmoke
   }
   #mob-nav-list {
     display: block;
@@ -730,7 +731,9 @@ span {
   .mob-nav2 a:hover {
     color: white;
   }
-
+.mob-nav2 i{
+  color: white;
+}
   .mob-nav2:hover {
     background-color: rgb(105, 104, 104);
     color: black;
